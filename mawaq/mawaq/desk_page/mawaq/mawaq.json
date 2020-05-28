@@ -1,0 +1,41 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Membership",
+   "links": "[\n    {\n        \"description\": \"Mawaq Members details\",\n        \"label\": \"Members Details\",\n        \"name\": \"Members Details\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
+  }
+ ],
+ "cards_label": "Membership",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2020-05-22 14:38:08.574642",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "label": "Mawaq",
+ "modified": "2020-05-22 17:29:33.088660",
+ "modified_by": "Administrator",
+ "module": "Mawaq",
+ "name": "Mawaq",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "label": "Members Details",
+   "link_to": "Members Details",
+   "type": "DocType"
+  },
+  {
+   "label": "Mahal",
+   "link_to": "Mahal",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Mawaq"
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mawaq *.css
+recursive-include mawaq *.csv
+recursive-include mawaq *.html
+recursive-include mawaq *.ico
+recursive-include mawaq *.js
+recursive-include mawaq *.json
+recursive-include mawaq *.md
+recursive-include mawaq *.png
+recursive-include mawaq *.py
+recursive-include mawaq *.svg
+recursive-include mawaq *.txt
+recursive-exclude mawaq *.pyc
