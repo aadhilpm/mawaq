@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "creation": "2020-05-28 21:06:05.808351",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_applicant",
+  "mahal",
+  "age",
+  "gender",
+  "column_break_5",
+  "contact_no",
+  "members_of_family",
+  "std_in_school",
+  "std_in_madrassa",
+  "column_break_10",
+  "eid_support",
+  "amount",
+  "starting_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_applicant",
+   "fieldtype": "Data",
+   "label": "Name of Applicant"
+  },
+  {
+   "fieldname": "mahal",
+   "fieldtype": "Link",
+   "label": "Mahal",
+   "options": "Mahal"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "members_of_family",
+   "fieldtype": "Int",
+   "label": "Members of Family"
+  },
+  {
+   "fieldname": "std_in_school",
+   "fieldtype": "Data",
+   "label": "Std. in school"
+  },
+  {
+   "fieldname": "std_in_madrassa",
+   "fieldtype": "Data",
+   "label": "Std in Madrassa"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eid_support",
+   "fieldtype": "Data",
+   "label": "Eid Support"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "starting_date",
+   "fieldtype": "Date",
+   "label": "Starting Date"
+  }
+ ],
+ "links": [],
+ "modified": "2020-05-28 21:06:05.808351",
+ "modified_by": "Administrator",
+ "module": "Mawaq",
+ "name": "Yatheem Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

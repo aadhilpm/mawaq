@@ -14,6 +14,7 @@
   "date_of_birth",
   "location_qatar",
   "column_break_4",
+  "status",
   "photo",
   "profession",
   "qualification",
@@ -34,7 +35,9 @@
   "family_member",
   "section_break_25",
   "children_details",
-  "elder_house"
+  "elder_house",
+  "membership_details_year_wise_section",
+  "membership"
  ],
  "fields": [
   {
@@ -191,11 +194,29 @@
   {
    "fieldname": "column_break_17",
    "fieldtype": "Column Break"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nActive\nActive (Unpaid)\nExit\nNot Renewed\nCancelled"
+  },
+  {
+   "fieldname": "membership_details_year_wise_section",
+   "fieldtype": "Section Break",
+   "label": "Membership Details Year wise"
+  },
+  {
+   "fieldname": "membership",
+   "fieldtype": "Table",
+   "label": "Membership",
+   "options": "Membership Payment details"
   }
  ],
  "image_field": "photo",
  "links": [],
- "modified": "2020-05-22 19:23:41.223390",
+ "modified": "2020-05-28 21:59:17.835696",
  "modified_by": "Administrator",
  "module": "Mawaq",
  "name": "Members Details",

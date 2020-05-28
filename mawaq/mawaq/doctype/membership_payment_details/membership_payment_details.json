@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "creation": "2020-05-28 21:51:38.538537",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "active",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Year",
+   "options": "2018\n2019\n2020\n2021\n2022\n2023"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Active "
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2020-05-28 21:55:51.792259",
+ "modified_by": "Administrator",
+ "module": "Mawaq",
+ "name": "Membership Payment details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

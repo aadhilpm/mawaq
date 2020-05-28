@@ -4,6 +4,11 @@
    "hidden": 0,
    "label": "Membership",
    "links": "[\n    {\n        \"description\": \"Mawaq Members details\",\n        \"label\": \"Members Details\",\n        \"name\": \"Members Details\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Accounts",
+   "links": "[\n    {\n        \"description\": \"Accounts\",\n        \"label\": \"Chart Of Accounts\",\n        \"name\": \"Account\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
   }
  ],
  "cards_label": "Membership",
@@ -18,7 +23,7 @@
  "idx": 0,
  "is_standard": 1,
  "label": "Mawaq",
- "modified": "2020-05-22 17:29:33.088660",
+ "modified": "2020-05-28 21:07:11.109503",
  "modified_by": "Administrator",
  "module": "Mawaq",
  "name": "Mawaq",
@@ -34,6 +39,31 @@
   {
    "label": "Mahal",
    "link_to": "Mahal",
+   "type": "DocType"
+  },
+  {
+   "label": "Widow Management",
+   "link_to": "Widow Management",
+   "type": "DocType"
+  },
+  {
+   "label": "Chart of Accounts",
+   "link_to": "Account",
+   "type": "DocType"
+  },
+  {
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "type": "DocType"
+  },
+  {
+   "label": "Journal Entry",
+   "link_to": "Journal Entry",
+   "type": "DocType"
+  },
+  {
+   "label": "Yatheem Management",
+   "link_to": "Yatheem Management",
    "type": "DocType"
   }
  ],
