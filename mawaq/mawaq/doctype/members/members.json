@@ -6,7 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "member_name",
+  "members_name",
   "mahal",
   "qatar_id",
   "mobile",
@@ -37,16 +37,12 @@
   "children_details",
   "elder_house",
   "membership_details_year_wise_section",
-  "membership"
+  "membership",
+  "default_currency",
+  "amended_from",
+  "membership_subscription_entries"
  ],
  "fields": [
-  {
-   "fieldname": "member_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Full Name",
-   "reqd": 1
-  },
   {
    "fieldname": "mahal",
    "fieldtype": "Link",
@@ -137,6 +133,7 @@
    "label": "Membership Details"
   },
   {
+   "default": "100",
    "fieldname": "membership_amount",
    "fieldtype": "Currency",
    "label": "Membership Amount"
@@ -154,7 +151,7 @@
   {
    "fieldname": "are_your_family_in_qatar",
    "fieldtype": "Select",
-   "label": "Are your family in Qatar",
+   "label": "Does your family in Qatar",
    "options": "Yes\nNo"
   },
   {
@@ -212,14 +209,49 @@
    "fieldtype": "Table",
    "label": "Membership",
    "options": "Membership Payment details"
+  },
+  {
+   "fieldname": "default_currency",
+   "fieldtype": "Link",
+   "label": "Billing Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "members_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Members",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "membership_subscription_entries",
+   "fieldtype": "Table",
+   "label": "Membership Subscription Entries",
+   "options": "Membership Subscription Entries",
+   "read_only": 1
   }
  ],
  "image_field": "photo",
- "links": [],
- "modified": "2020-05-28 21:59:17.835696",
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Payment Entry",
+   "link_fieldname": "party"
+  }
+ ],
+ "modified": "2020-09-04 12:38:38.936742",
  "modified_by": "Administrator",
  "module": "Mawaq",
- "name": "Members Details",
+ "name": "Members",
  "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
@@ -261,9 +293,9 @@
   }
  ],
  "quick_entry": 1,
- "search_fields": "member_name",
+ "search_fields": "members_name",
  "sort_field": "modified",
  "sort_order": "DESC",
- "title_field": "member_name",
+ "title_field": "members_name",
  "track_changes": 1
 }

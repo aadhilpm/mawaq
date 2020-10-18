@@ -1,11 +1,12 @@
 {
  "actions": [],
+ "autoname": "field:yatheem_name",
  "creation": "2020-05-28 21:06:05.808351",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name_of_applicant",
+  "yatheem_name",
   "mahal",
   "age",
   "gender",
@@ -20,11 +21,6 @@
   "starting_date"
  ],
  "fields": [
-  {
-   "fieldname": "name_of_applicant",
-   "fieldtype": "Data",
-   "label": "Name of Applicant"
-  },
   {
    "fieldname": "mahal",
    "fieldtype": "Link",
@@ -84,13 +80,20 @@
    "fieldname": "starting_date",
    "fieldtype": "Date",
    "label": "Starting Date"
+  },
+  {
+   "fieldname": "yatheem_name",
+   "fieldtype": "Data",
+   "label": "Name of Applicant",
+   "unique": 1
   }
  ],
  "links": [],
- "modified": "2020-05-28 21:06:05.808351",
+ "modified": "2020-06-30 19:43:08.351245",
  "modified_by": "Administrator",
  "module": "Mawaq",
- "name": "Yatheem Management",
+ "name": "Yatheem",
+ "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
   {
@@ -104,9 +107,35 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Mawaq President",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Secretary Mawaq",
+   "share": 1,
+   "write": 1
   }
  ],
+ "search_fields": "yatheem_name",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "yatheem_name",
  "track_changes": 1
 }

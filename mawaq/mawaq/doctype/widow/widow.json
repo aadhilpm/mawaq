@@ -1,12 +1,12 @@
 {
  "actions": [],
- "autoname": "field:name_of_applicant",
+ "autoname": "W.####",
  "creation": "2020-05-28 19:35:54.758118",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name_of_applicant",
+  "widow_name",
   "age",
   "pension_amount",
   "column_break_3",
@@ -14,17 +14,11 @@
   "mahal",
   "column_break_4",
   "pension_starting_date",
-  "pension_end_date"
+  "pension_end_date",
+  "mobile",
+  "status"
  ],
  "fields": [
-  {
-   "fieldname": "name_of_applicant",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Name of Applicant",
-   "reqd": 1,
-   "unique": 1
-  },
   {
    "fieldname": "age",
    "fieldtype": "Data",
@@ -70,13 +64,32 @@
   {
    "fieldname": "column_break_3",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "widow_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Applicant",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile "
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive"
   }
  ],
  "links": [],
- "modified": "2020-05-28 22:19:50.121806",
+ "modified": "2020-09-19 20:47:47.080994",
  "modified_by": "Administrator",
  "module": "Mawaq",
- "name": "Widow Management",
+ "name": "Widow",
  "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
@@ -105,7 +118,9 @@
    "write": 1
   }
  ],
+ "search_fields": "widow_name",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "widow_name",
  "track_changes": 1
 }
