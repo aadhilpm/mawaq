@@ -13,7 +13,7 @@ app_license = "MIT"
 fixtures = [ "Custom Field","Custom Script","Role Profile","Print Format","Letter Head","Desk Page","Website Theme"]
 # Includes in <head>
 # ------------------
-
+app_logo_url = "files/WhatsApp%20Image%202018-10-21%20at%208.56.15%20PM.jpg"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/mawaq/css/mawaq.css"
 # app_include_js = "/assets/mawaq/js/mawaq.js"

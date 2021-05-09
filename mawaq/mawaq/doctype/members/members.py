@@ -8,13 +8,12 @@ from frappe.model.document import Document
 from frappe import _, msgprint
 
 class Members(Document):
-
-    def validate(self):
-        self.add_journal()
-
-
+    pass
+"""
+     def validate(self):
+        self.add_journal():
     
-    def add_journal(self):
+      def add_journal(self):
         try:
             if(self.docstatus == 1 and self.status == "Active"):
                 doc = frappe.new_doc("Journal Entry")
@@ -51,3 +50,4 @@ class Members(Document):
                 })
         except Exception as e:
             frappe.msgprint(e)
+"""

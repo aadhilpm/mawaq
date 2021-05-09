@@ -85,8 +85,9 @@
    "options": "Active\nInactive"
   }
  ],
+ "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-09-19 20:47:47.080994",
+ "modified": "2021-01-01 14:42:32.575688",
  "modified_by": "Administrator",
  "module": "Mawaq",
  "name": "Widow",

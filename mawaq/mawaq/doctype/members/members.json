@@ -39,8 +39,7 @@
   "membership_details_year_wise_section",
   "membership",
   "default_currency",
-  "amended_from",
-  "membership_subscription_entries"
+  "amended_from"
  ],
  "fields": [
   {
@@ -231,24 +230,13 @@
    "options": "Members",
    "print_hide": 1,
    "read_only": 1
-  },
-  {
-   "fieldname": "membership_subscription_entries",
-   "fieldtype": "Table",
-   "label": "Membership Subscription Entries",
-   "options": "Membership Subscription Entries",
-   "read_only": 1
   }
  ],
  "image_field": "photo",
+ "index_web_pages_for_search": 1,
  "is_submittable": 1,
- "links": [
-  {
-   "link_doctype": "Payment Entry",
-   "link_fieldname": "party"
-  }
- ],
- "modified": "2020-09-04 12:38:38.936742",
+ "links": [],
+ "modified": "2021-01-01 14:40:43.352299",
  "modified_by": "Administrator",
  "module": "Mawaq",
  "name": "Members",
